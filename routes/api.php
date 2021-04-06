@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+//LLAMAMOS A LA FUNCION LOGIN CREADA EN LOGINCONTROLLER
 Route::post('/login', 'App\Http\Controllers\LoginController@login')->name('login');
